@@ -1,5 +1,5 @@
 @echo off
-@REM start main.exe
+start main.exe
 if %ERRORLEVEL% neq 0 (
     echo "main.exe failed to start"
     exit /b %ERRORLEVEL%
