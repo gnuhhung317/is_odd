@@ -17,7 +17,7 @@ if %ERRORLEVEL% neq 0 (
     exit /b %ERRORLEVEL%
 )
 
-git push origin master
+git push origin main
 if %ERRORLEVEL% neq 0 (
     echo "git push failed"
     exit /b %ERRORLEVEL%
