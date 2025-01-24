@@ -87,7 +87,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     fprintf(dbFile, "%d", k+n); // Ghi giá trị k mới vào file "db.txt"
     // Đóng file sau khi ghi xong
     fclose(dbFile);
-
+    printf("%d\n", k+n);
 
     printf("All files and core_func.py updated successfully.\n");
     return 0;

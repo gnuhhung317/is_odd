@@ -11,5 +11,6 @@ try:
         print("Số bạn nhập là số lẻ.")
     else:
         print("Số của bạn nhập là số chẵn")
-except :
+except Exception as e:
     print(f"Chương trình chưa thể tính toán được tính chất của {n}.")
+    print(f"Lỗi: {e}")
